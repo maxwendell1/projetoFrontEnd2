@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title> Play the ROCK! Music Store </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+  
+  .card{
+    width:14rem;
+    margin: 5px; 
+    padding: 10px;
+  }
+
+  .card-title{
+    font-size: 20px;
+  }
+
+  .card-text{
+    font-size: 16px;
+  }
+
+  .card-img-top{
+    width: 200px; 
+    height: 150px;
+  }
+
+  #comprar{
+    color: white;
+    background-color: blue;
+    border-radius: collapse;
+    border-color: blue;
+  }
+
+</style>
+
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="home.html"> Home </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="who.html" target="blank">Quem Somos</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="local.html" target="blank">Loja Física</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color: white; font-weight: bolder;" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Produtos </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="produtos.html"> Instrumentos Musicais</a>
+          <a class="dropdown-item" href="produtos.html"> Equipamentos </a>
+          <a class="dropdown-item" href="produtos.html"> Discos/ CD's e DVD's </a>
+        </div>
+      </li>
+
+    </ul>
+  </div>  
+</nav>
+
+<div class="container-fluid" style="margin-top:10px">​
+
+
+
+
+
+  <div class="row">​
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="flying.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">Guitarra Flying V</h4>
+        <p class="card-text"> R$ 2.899,00 <br/> Ou em  até 10x sem juros de R$ 289,90 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Excelente instrumento pra quem quer uma performance de alto nível! Som pesado! Era o que faltava pra você poder tocar aquele Heavy Metal!
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+
+    </div>​
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="baixo.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Baixo Eletro-acústico Tagima </h4>
+        <p class="card-text"> R$ 3.199,00 <br/> Ou em até 10x sem juros de R$ 319,90 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Intrumento de linhas clássicas e com um grave poderoso!
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+
+    </div>​
+    
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="bateria.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Bateria Nagano Eletro-acústica + Set de pratos Zildjian </h4>
+        <p class="card-text"> R$ 8.599,00 <br/> Ou em até 10x sem juros de R$ 319,90 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          Instrumento de alta qualidade e desenvolvido para atender às necessidades de bateristas exigentes!
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+    
+    </div>
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="violao.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Violão Eletro-acústico Tagima</h4>
+        <p class="card-text">R$ 3.690,00 <br/> Ou em até 10x sem juros de R$ 369,90 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          Instrumento com timbre marcante e acabamento de alta qualidade!
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+    
+    </div>​
+
+  </div>​
+
+
+
+
+
+
+  <div class="row">​
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="cd1.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> CD The Dark Side Of The Moon - Pink Floyd </h4>
+        <p class="card-text"> R$ 59,90 <br/> Ou em  até 10x sem juros de R$ 5,99 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Um dos discos mais clássicos do Rock mundial
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+
+    </div>​
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="cd2.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> CD Killers - Iron Maiden </h4>
+        <p class="card-text"> R$ 54,90 <br/> Ou em até 10x sem juros de R$ 5,49 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Disco marcante na história da banda. 
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+
+    </div>​
+    
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="dvd1.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> DVD Queen Classic Trax - Time Music </h4>
+        <p class="card-text"> R$ 19,90 <br/> Ou em até 10x sem juros de R$ 1,99 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          DVD com os clássicos da banda. Simplesmente imperdível!
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+    
+    </div>
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="dvd2.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> DVD AC/DC Berlin 2015 Rock Or Bust World Tour </h4>
+        <p class="card-text">R$ 14,90 <br/> Ou em até 10x sem juros de R$ 1,49 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          Show marcante do AC/DC em Berlim - Alemanha
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+    
+    </div>​
+
+  </div>​
+
+</div>​
+
+
+
+
+<div class="row">​
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="equipamento1.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Amplificador Marshall Mg30gfx Gold 110v </h4>
+        <p class="card-text"> R$ 1.649,00 <br/> Ou em  até 10x sem juros de R$ 164,90 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Amplificador de alta potência e grande alcance
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+
+    </div>​
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="equipamento2.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Microfone Dinâmico Shure 55sh Series Ii Clássico </h4>
+        <p class="card-text"> R$ 2.099,00 <br/> Ou em até 10x sem juros de R$ 209,90 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Microfone para gravações profissionais, com alta definição de áudio!
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+
+    </div>​
+    
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="equipamento3.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Cabo P10 / P10 Stereo Santo Angelo Sc30 1 metro </h4>
+        <p class="card-text"> R$ 61,90 <br/> Ou em até 10x sem juros de R$ 6,19 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          <br/>
+          Cabo totalmente flexível e muito resistente
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+    
+    </div>
+
+    <div class="col-sm-3">​
+
+      <div class="card">
+      <img class="card-img-top" src="equipamento4.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"> Fone Qkz Ck5 Original Retorno Palco + Case Sony Jbl Akg </h4>
+        <p class="card-text"> R$ 89,90 <br/> Ou em até 10x sem juros de R$ 8,99 no cartão de crédito </p>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"> Mais Detalhes! </button>
+        <div id="demo" class="collapse">
+          Fone de retorno profissional que minimiza ao máximo ruídos externos
+          <br/>
+          <br/>
+          <button id="comprar"> Comprar </button>
+        </div>
+      </div>
+      </div>
+    
+    </div>​
+
+  </div>​
+
+ <div style= "font-family: arial;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bolder;
+      color: rgb(255,255,255);
+      background-color: #334;
+      padding-bottom: 20px;
+      padding-top: 20px;" >
+  <p> Feel the music !</p>
+</div>
+ 
+</body>
+</html>
